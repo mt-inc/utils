@@ -2,6 +2,7 @@ export const SELL = 'SELL';
 export const BUY = 'BUY';
 export const OK = 'OK';
 export const NOTOK = 'NOTOK';
+export const saveHistory = 3;
 export type Pairs =
   | 'BTCUSDT'
   | 'BNBUSDT'
