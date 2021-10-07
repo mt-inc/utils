@@ -5,9 +5,6 @@
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "type": "module",
-  "files": [
-    "dist/"
-  ],
   "author": "Maksym Shamko",
   "license": "MIT",
   "private": true,
