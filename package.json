@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "push": "yarn tsc && git add . && git commit -m 'working' && git push origin master && rm -rf ./dist",
+    "push": "rm -rf ./dist && yarn tsc && git add . && git commit -m 'working' && git push origin master",
     "pull": "git pull origin master"
   },
   "devDependencies": {
