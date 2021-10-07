@@ -7,7 +7,7 @@
   "type": "module",
   "author": "Maksym Shamko",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "files": [
     "/dist"
   ],
