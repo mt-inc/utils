@@ -2,19 +2,25 @@
   "name": "@mt-inc/utils",
   "version": "1.0.0",
   "description": "Utils for MT Inc. Project",
-  "main": "index.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "files": [
+    "dist/"
+  ],
   "author": "Maksym Shamko",
   "license": "MIT",
   "private": true,
   "scripts": {
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "push": "git push origin master",
     "pull": "git pull origin master",
     "commit": "git add . && git commit -m 'working'"
   },
   "devDependencies": {
     "@types/node": "^16.10.3",
-    "prettier": "^2.3.1",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.3.5"
+    "prettier": "^2.4.1",
+    "ts-node": "^10.2.1",
+    "tsc": "^2.0.3",
+    "typescript": "^4.4.2"
   }
 }

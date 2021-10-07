@@ -1,14 +1,6 @@
 yarn.lock
 yarn-error.log
 node_modules
-trades.txt
-tradesCleaned.txt
-crash.txt
-simulate/*
-db/*
-trades/*
-positions-*
-heap/*
-test.settings.json
 .yarn
 .yarnrc.yml
+dist
