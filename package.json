@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "yarn tsc",
+    "install": "yarn tsc",
     "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "push": "git push origin master",
     "pull": "git pull origin master",
