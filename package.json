@@ -4,6 +4,7 @@
   "description": "Utils for MT Inc. Project",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
+  "type": "module",
   "files": [
     "dist/"
   ],
@@ -11,6 +12,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "yarn tsc",
     "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "push": "git push origin master",
     "pull": "git pull origin master",
