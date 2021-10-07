@@ -1,6 +1,21 @@
-export * from './src/const';
-export { Helper as Math } from './src/math';
-export { TimeAgo as Time } from './src/timaAgo';
-export * from './src/cross';
-export * from './src/db';
-export * from './src/file';
+import * as constants from './src/const';
+import { Helper as Math } from './src/math';
+import { TimeAgo as Time } from './src/timaAgo';
+import * as Cross from './src/cross';
+import * as DB from './src/db';
+import * as File from './src/file';
+export { constants };
+export { Math };
+export { Time };
+export { Cross };
+export { DB };
+export { File };
+declare const _default: {
+    constants: typeof constants;
+    Math: typeof Math;
+    Time: typeof Time;
+    Cross: typeof Cross;
+    DB: typeof DB;
+    File: typeof File;
+};
+export default _default;
