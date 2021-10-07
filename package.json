@@ -8,12 +8,13 @@
   "author": "Maksym Shamko",
   "license": "MIT",
   "private": true,
+  "files": [
+    "/dist"
+  ],
   "scripts": {
-    "install": "yarn tsc",
     "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "push": "git push origin master",
-    "pull": "git pull origin master",
-    "commit": "git add . && git commit -m 'working'"
+    "push": "yarn tsc && git add . && git commit -m 'working' && git push origin master && rm -rf ./dist",
+    "pull": "git pull origin master"
   },
   "devDependencies": {
     "@types/node": "^16.10.3",
