@@ -7,7 +7,6 @@
   "type": "commonjs",
   "author": "Maksym Shamko",
   "license": "MIT",
-  "private": false,
   "files": [
     "/dist"
   ],
