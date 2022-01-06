@@ -15,7 +15,8 @@ export type Pairs =
   | 'BNBBUSD'
   | 'DOGEBUSD'
   | 'SOLUSDT'
-  | 'XRPUSDT';
+  | 'XRPUSDT'
+  | '1000SHIBUSDT';
 export const EMOJI = [
   '😄',
   '😃',
