@@ -16,7 +16,12 @@ export type Pairs =
   | 'DOGEBUSD'
   | 'SOLUSDT'
   | 'XRPUSDT'
-  | '1000SHIBUSDT';
+  | '1000SHIBUSDT'
+  | 'LINKUSDT'
+  | 'ATOMUSDT'
+  | 'FTMUSDT'
+  | 'NEARUSDT'
+  | 'LUNAUSDT';
 export const EMOJI = [
   '😄',
   '😃',
